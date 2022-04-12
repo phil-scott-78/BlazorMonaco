@@ -88,7 +88,7 @@ namespace BlazorMonaco
         public bool? RenderControlCharacters { get; set; }
         public bool? RenderFinalNewline { get; set; }
         public bool? RenderIndentGuides { get; set; }
-        public string RenderLineHighlight { get; set; }
+        public bool? RenderLineHighlight { get; set; }
         public bool? RenderLineHighlightOnlyWhenFocus { get; set; }
         public string RenderValidationDecorations { get; set; }
         public string RenderWhitespace { get; set; }
